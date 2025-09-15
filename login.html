@@ -1,0 +1,41 @@
+<!DOCTYPE html><!--Doctype declaration-->
+<html lang="en"><!--Root element with language attribute, "en"=english-->
+<head>
+    <meta charset="UTF-8"><!--Character encoding declaration-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Compatibility mode declaration-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Viewport settings for responsive design-->
+    <title>Login Form</title><!--Title of the document-->
+    <link rel="stylesheet" href="style.css"><!--Link to external CSS file-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper"><!--Wrapper div for the entire content-->
+       <form action="">
+        <h1>Login</h1>
+        <div class="input-box">
+            <input type="text" placeholder="Username" required>
+            <i class='bx bxs-user'></i>
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Password" required>
+            <i class='bx bxs-lock-alt'></i>
+        </div>
+
+        <div class="remember-forgot">
+            <label><input type="checkbox">Remember me</label>
+            <a href="#">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+
+        <div class="register-link">
+            <p>Don't have an account? <a href="#">Sign Up Here</a></p>
+        </div>
+       </form>
+    </div>
+</body>
+</html>
+<!--references: 1. https://v2.boxicons.com/?query=
+2. https://www.w3schools.com/html/html_css.asp
+3. https://www.w3schools.com/tags/tag_nav.asp-->
